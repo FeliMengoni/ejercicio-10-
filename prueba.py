@@ -1,5 +1,4 @@
 from src import utils # en vez de importar una funcion en especifico, entro en la carpeta "src" e importo todas las funciones de utils
-
 rounds = [
     {
         'Shadow': {'kills': 2, 'assists': 1, 'deaths': True},
@@ -37,6 +36,8 @@ rounds = [
         'Reaper': {'kills': 1, 'assists': 1, 'deaths': True}
     }
 ]
+# Limpiar Rondas
+
 
 # Crear diccionario contador 
 contador = {}
