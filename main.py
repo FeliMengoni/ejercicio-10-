@@ -36,8 +36,6 @@ rounds = [
         'Reaper': {'kills': 1, 'assists': 1, 'deaths': True}
     }
 ]
-# Limpiar Rondas
-
 
 # Crear diccionario contador 
 contador = {}
