@@ -1,5 +1,5 @@
 def imprimir(contador):
-    # funcion para imprimir ordenado y con tabla 
+    """funcion para imprimir ordenado y con tabla"""
     print('-------------------------------------------------------')
     print('Jugador    Kills    Assists    Deaths    MVPs    Puntos') 
     print('-------------------------------------------------------')
@@ -20,11 +20,11 @@ def imprimir(contador):
         print()
         
 def calcular_puntos(jug):
-    # linea que suma los puntos de cada jugador por ronda 
+    """linea que suma los puntos de cada jugador por ronda """
     return jug['kills'] * 3 + jug['assists'] - jug['deaths'] 
 
 def procesar_ronda(round, contador):
-# inicializamos los puntos y el mvp de cada ronda
+    """nicializamos los puntos y el mvp de cada ronda"""
     max_p = 0
     j_mvp = ''
     
